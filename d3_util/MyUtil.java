@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class MyUtil {
 
-    private MyUtil() {
+   private MyUtil() {
 
     }
 
