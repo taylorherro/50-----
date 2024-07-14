@@ -1,4 +1,4 @@
-import com.itheima.d3_util.MyUtil;
+
 
 public class DifferentDemo {
     

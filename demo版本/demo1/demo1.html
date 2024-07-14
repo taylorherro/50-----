@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>这是一个选择器</title>
+</head>
+<body>
+    <input type="button" id="st1" value="事件1" onclick="on()">
+    <input type="button" id="st2" value="事件2">
+    <input type="button" id="st3" value="事件3" onclick="move1()">
+    <div style="height: 1000px;"></div>
+</body>
+<script>
+    function on() {
+        alert("这是事件一");
+    }
+
+    function move1() {
+        window.scrollTo(0, 550);
+    }
+
+    document.getElementById("st2").onclick = function() {
+        alert("这是事件二");
+    }
+</script>
+</html>
