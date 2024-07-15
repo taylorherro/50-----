@@ -4,5 +4,4 @@ public class LoginDemo {
         //用户注册生成验证码
         System.out.println(MyUtil.createCode(6));
     }
-
 }

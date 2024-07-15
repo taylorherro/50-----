@@ -20,7 +20,7 @@ public class MyUtil {
             //返回index下表字符
             code += data.charAt(index);
         }
-
+        //
         return code;
     }
 }
